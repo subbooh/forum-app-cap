@@ -1,4 +1,4 @@
-from alpine:3.7
+from mhart/alpine-node:latest
 
 WORKDIR /root
 COPY . .
