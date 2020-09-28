@@ -1,5 +1,5 @@
 #!/bin/bash 
-
+cd /root
 apk add --update nodejs npm
 apk add p7zip
 
