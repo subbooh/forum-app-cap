@@ -4,7 +4,7 @@ server:
 spring:
   profiles: default
   datasource:
-    url: "jdbc:sqlite:test.db?cache=shared"
+    url: "jdbc:sqlite:test.db"
     driver-class-name: org.sqlite.JDBC
     initialization-mode: always
     hikari:

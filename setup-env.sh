@@ -3,6 +3,12 @@ cd /root
 apk add --update nodejs npm
 apk add p7zip
 
+# Install Jenkins
+# docker run -dp 80:8080 -v /var/run/docker.sock:/var/run/docker.sock liatrio/jenkins-alpine
+
+# SSH ubuntu image
+# https://hub.docker.com/r/mmumshad/ubuntu-ssh-enabled
+
 # git clone https://github.com/efeiefei/node-file-manager.git
 # cd node-file-manager
 # npm i
