@@ -8,7 +8,7 @@
 	<version>${revision}</version>
 	<packaging>pom</packaging>
 
-	<name>forum-app-cap parent</name>
+	<name>forum-app-cap-parent</name>
 
 	<properties>
 		<!-- OUR VERSION -->
