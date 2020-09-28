@@ -10,9 +10,11 @@ apk add p7zip
 #node --harmony index.js -p 8080 -d /
 # cd ~/home
 
+echo 'Installing CDS sdk : This may take a while...'
 # Install cds
 npm i -g @sap/cds-dk --unsafe
 
+echo 'Installing Java'
 # Install java
 apk add openjdk11 maven
 # mkdir java
