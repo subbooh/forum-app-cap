@@ -1,8 +1,10 @@
+server:
+    port: $PORT
 ---
 spring:
   profiles: default
   datasource:
-    url: "jdbc:sqlite:file::memory:?cache=shared"
+    url: "jdbc:sqlite:test.db?cache=shared"
     driver-class-name: org.sqlite.JDBC
     initialization-mode: always
     hikari:
