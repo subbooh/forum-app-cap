@@ -1,6 +1,6 @@
 # forum-app-cap
 A CAP based webapp for forum management
 
-#### Can be Connected to Jenkins via webhooks
-#### Docker based on alpine
-#### Deployable to Heroku via docker (512mb+ memory required)
+1. Can be Connected to Jenkins via webhooks
+2. Docker based on alpine
+3. Deployable to Heroku via docker (512mb+ memory required)
